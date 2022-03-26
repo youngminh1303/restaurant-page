@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    color: #649CD9;
+}
+
+
+
+
+header, .content {
+    width: 80%;
+    margin: auto;
+    background-color: #66EB73;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+}
+
+.content {
+    height: 90vh;
+    border: 1px solid #649CD9;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    width: 100%;
+}
+
+.navbar > ul > li {
+    list-style: none;
+    margin: 1rem;
+    font-size: 19px;
+}
+
+.navbar > ul > li:hover {
+    cursor: pointer;
+    color: black
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar > ul {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.container {
+    width: 60%;
+    height: 60%;
+    background-color: #FFED9E;
+    border: 0.7rem solid #649CD9;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    margin: auto;
+}
+
+.hometabs {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    
+}
+
+.hometabs p {
+    width: 80%;
+    text-align: center;
+    line-height: 20px;
+}
+
+.action-buttons {
+    position: absolute;
+    bottom: 2rem;
+}
+
+.active {
+    color: black;
+}
+
+.menucontainer {
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.dishcontainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #FFED9E;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: auto;
+
+}
+
+.dishcontainer > img {
+    height: 40%;
+    width: 40%;
+}
